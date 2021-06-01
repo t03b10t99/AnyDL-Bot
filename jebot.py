@@ -29,7 +29,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hai {message.from_user.mention}
+               text="""<b>Hai, Saya Music Anydl Bot
 
 I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
 
@@ -39,7 +39,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "➡️ ʙᴀɴᴛᴜᴀɴ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", url="https://t.me/Infinity_BOTs")
+                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                     ],[
                                       InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➗", url="http://t.me/MusicAnydlBot?startgroup=start")
@@ -53,11 +53,35 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>AnyDL Bot Help!
+               text="""<b>Bantuan Music Anydl Bot
 
-Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
+BAGAIMANA CARA MENGGUNAKANNYA?
 
-Join @Infinity_BOTs</b>""",
+1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
+
+2) Kemudian Tambahkan Assistent @MusicAnydlAssistent Ke Grup Anda Dan Berikan Hak Admin
+
+3) Setelah itu ikuti perintah di bawah ini.
+
+PERINTAH UNTUK SEMUA ANGGOTA GRUP
+• /play - balas url youtube atau file lagu untuk memutar lagu
+• /play [judul musik] - putar lagu yang Anda minta
+• /song [judul musik] - unduh lagu yang Anda inginkan dengan cepat
+• /search [judul musik] - Cari video di youtube dengan detail
+
+
+PERINTAH UNTUK SEMUA ADMIN GRUP
+
+• /pause - jeda pemutaran lagu
+• /resume - lanjutkan pemutaran lagu
+• /skip - mainkan lagu berikutnya
+• /end - hentikan pemutaran musik
+
+📝 CATATAN:
+• Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
+• Musik Yang Melebihi Waktu 1 Jam Tidak Dapat Diputar Di Voice Chat
+• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
+• Jika Ada Masalah Silahkan Hubungi @GB_03101999 Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
