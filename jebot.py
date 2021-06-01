@@ -29,7 +29,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
+               text="""<b>Hai {message.from_user.mention}
 
 I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
 
@@ -37,12 +37,12 @@ Hit help button to find out more about how to use me</b>""",
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "➡️ ʙᴀɴᴛᴜᴀɴ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", url="https://t.me/Infinity_BOTs")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➗", url="http://t.me/MusicAnydlBot?startgroup=start")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -61,12 +61,12 @@ Join @Infinity_BOTs</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About", callback_data="about"),
+                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➗", url="http://t.me/MusicAnydlBot?startgroup=start")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
