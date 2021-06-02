@@ -69,7 +69,7 @@ BAGAIMANA CARA MENGGUNAKANNYA?
 
 1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
 
-2) Kemudian Tambahkan Assistent @MusicAnydlAssistent Ke Grup Anda Dan Berikan Hak Admin
+2) Kemudian Tambahkan Assistent @MusicAnydlAssistant Ke Grup Anda Dan Berikan Hak Admin
 
 3) Setelah itu ikuti perintah di bawah ini.
 
