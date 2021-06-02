@@ -41,7 +41,6 @@ Saya Memiliki Banyak Fitur Praktis Seperti:
 ┏━━━━━━━━━━━━━━
 ┣ Mencari Link Youtube
 ┗━━━━━━━━━━━━━━━━━━━
-
 Tekan Tombol Bantuan Untuk Mengetahui Lebih Lanjut Tentang Cara Menggunakan Saya</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
@@ -53,7 +52,7 @@ Tekan Tombol Bantuan Untuk Mengetahui Lebih Lanjut Tentang Cara Menggunakan Saya
                                       InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="donasi")
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="about")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -75,6 +74,7 @@ BAGAIMANA CARA MENGGUNAKANNYA?
 3) Setelah itu ikuti perintah di bawah ini.
 
 PERINTAH UNTUK SEMUA ANGGOTA GRUP
+
 • /play - balas url youtube atau file lagu untuk memutar lagu
 • /play [judul musik] - putar lagu yang Anda minta
 • /song [judul musik] - unduh lagu yang Anda inginkan dengan cepat
@@ -103,13 +103,13 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
                                         InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="donasi")
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="about")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Jebot.on_message(filters.command("donasi"))
+@Jebot.on_message(filters.command("about"))
 async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
