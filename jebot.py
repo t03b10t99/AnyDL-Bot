@@ -97,11 +97,14 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
 × /end : Untuk Memberhentikan pemutaran Lagu
 × /userbotjoin - Untuk Mengundang asisten ke obrolan Anda
 × /admincache - Untuk MemRefresh admin list
+
 📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Musik Yang Melebihi Waktu 1 Jam Tidak Dapat Diputar Di Voice Chat
-• Jika Userbot Tidak Mau Naik Ke Voice Chat Akhiri Obrolan Suara Dan Mulai Lagi Obrolan Suara Nya
-• Jika Ada Masalah Silahkan Hubungi @GB_03101999 Terimakasih, Selamat Bermusik</b>""",
+• Jika Assistent Tidak Mau Naik Ke Voice Chat, Kick Assistent Dan Masukin Lagi Ke Grup Anda
+• Jika Assistent Tidak Bisa Di Invite, PM Assistent Dan Kirim Link Grup Anda, Dan Pastikan Juga Assistent Tidak Di Ban Agar Assistent Bisa Bergabung
+• Jika Ada Masalah Silahkan Hubungi @GB_03101999
+• Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
