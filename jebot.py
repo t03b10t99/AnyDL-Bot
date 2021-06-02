@@ -148,7 +148,7 @@ async def ytdl_with_button(c: Client, message: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/InfinityBots_Support).",
+                    text="Maaf, Anda Dilarang Menggunakan Saya. Hubungi [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -156,11 +156,11 @@ async def ytdl_with_button(c: Client, message: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="**Please Join My Updates Channel to use me 😉**",
+                text="**Untuk Menggunakan Fitur Ini Anda Harus Bergabung Di Saluran Saya**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{Config.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Join BorutoID", url=f"https://t.me/{Config.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
@@ -175,16 +175,16 @@ async def ytdl_with_button(c: Client, message: Message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        "**Choose download type👇**",
+        "**Silahkan Pilih Metode Download**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Audio 🎵",
+                        "🎵 ᴀᴜᴅɪᴏ",
                         callback_data="ytdl_audio"
                     ),
                     InlineKeyboardButton(
-                        "Video 🎬",
+                        "ᴠɪᴅᴇᴏ 🎬",
                         callback_data="ytdl_video"
                     )
                 ]
