@@ -31,9 +31,18 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hai, Saya Music Anydl Bot
 
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
+Saya Memiliki Banyak Fitur Praktis Seperti:
+┏━━━━━━━━━━━━━━━━━━━
+┣ Memutar Music Di Group
+┗━━━━━━━━━━━━━━
+┣ Mendownload Music
+┣━━━━━━━━━━━━━━
+┣ Mendownload Video
+┏━━━━━━━━━━━━━━
+┣ Mencari Link Youtube
+┗━━━━━━━━━━━━━━━━━━━
 
-Hit help button to find out more about how to use me</b>""",   
+Tekan Tombol Bantuan Untuk Mengetahui Lebih Lanjut Tentang Cara Menggunakan Saya</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -42,7 +51,9 @@ Hit help button to find out more about how to use me</b>""",
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                     ],[
                                       InlineKeyboardButton(
-                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➗", url="http://t.me/MusicAnydlBot?startgroup=start")
+                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
+                                        InlineKeyboardButton(
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="donasi")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -90,32 +101,34 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
                                         InlineKeyboardButton(
-                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ ➗", url="http://t.me/MusicAnydlBot?startgroup=start")
+                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
+                                        InlineKeyboardButton(
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="donasi")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Jebot.on_message(filters.command("about"))
+@Jebot.on_message(filters.command("donasi"))
 async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About AnyDL Bot!</b>
+               text="""<b>Dukungan Music Anydl Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Jason</a>
+<b>♞ Developer:</b> <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Donasi Via Pulsa Tri:</b> 089525658633
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>♞ Donasi Via E-Wallet:</b> <a href="https://saweria.co/DonasiUntukAdmin">Saweria</a>
 
-<b>Join @Infinity_BOTs</b>""",
+<b>Saya Ucapkan Terimakasih</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat="")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
