@@ -60,6 +60,7 @@ async def help(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>BAGAIMANA CARA MENGGUNAKAN NYA?
+
 1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
 
 2) Kemudian Tambahkan Assistent @MusicAnydlAssistant Ke Grup Anda Dan Berikan Hak Admin
