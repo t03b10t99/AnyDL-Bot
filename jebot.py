@@ -37,7 +37,7 @@ async def start(client, message):
 
 ➠ Tekan Tombol Pencarian Di Bawah Jika Anda Ingin Mendownload Lagu Atau Video
 
-➠ Tambahkan Juga [Music Anydl Asisstant](t.me/MusicAnydlAssistant) Ke Dalam Grup Jika Anda Ingin Menambahkan Saya Ke Grup Anda</b>""",   
+➠ Tambahkan Juga <a href="https://t.me/MusicAnydlAssistant">Music Anydl Asisstant</a> Ke Dalam Grup Jika Anda Ingin Menambahkan Saya Ke Grup Anda</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -89,7 +89,7 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
 • Jika Assistent Tidak Bisa Di Invite, PM Assistent Dan Kirim Link Grup Anda, Dan Pastikan Juga Assistent Tidak Di Ban Agar Assistent Bisa Bergabung
-• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)
+• Jika Ada Masalah Silahkan Hubungi <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>
 • Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
