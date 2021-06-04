@@ -29,19 +29,15 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hai, Saya Music Anydl Bot
+               text="""<b>👋🏻 Hai, Nama Saya Music Anydl Bot, Saya Dapat Memutar Lagu Di Obrolan Suara Di Group Anda
 
-Saya Memiliki Banyak Fitur Praktis Seperti:
-┏━━━━━━━━━━━━━━━━━━━
-┣ Memutar Music Di Group
-┗━━━━━━━━━━━━━━
-┣ Mendownload Music
-┣━━━━━━━━━━━━━━
-┣ Mendownload Video
-┏━━━━━━━━━━━━━━
-┣ Mencari Link Youtube
-┗━━━━━━━━━━━━━━━━━━━
-Tekan Tombol Bantuan Untuk Mengetahui Lebih Lanjut Tentang Cara Menggunakan Saya</b>""",   
+➠ Tekan Tombol Bantuan Di Bawah Jika Ingin Mengetahui Bagaimana Cara Menggunakan Saya
+
+➠ Tekan Tombol Donasi Di Bawah Jika Anda Ingin Berdonasi Ke Saya
+
+➠ Tekan Tombol Pencarian Di Bawah Jika Anda Ingin Mendownload Lagu Atau Video
+
+➠ Tambahkan Juga [Music Anydl Asisstant](t.me/MusicAnydlAssistant) Ke Dalam Grup Jika Anda Ingin Menambahkan Saya Ke Grup Anda</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -63,17 +59,7 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Bantuan Music Anydl Bot
-
-BAGAIMANA CARA MENGGUNAKANNYA?
-
-1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
-
-2) Kemudian Tambahkan Assistent @MusicAnydlAssistant Ke Grup Anda Dan Berikan Hak Admin
-
-3) Setelah itu ikuti perintah di bawah ini.
-
-PERINTAH UNTUK SEMUA ANGGOTA GRUP
+               text="""<b>PERINTAH UNTUK SEMUA ANGGOTA GRUP
 
 × /playlist : Untuk Menampilkan daftar putar Lagu sekarang
  × /current : Untuk Menunjukkan  Lagu sekarang yang sedang diputar
@@ -100,10 +86,10 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
 
 📝 CATATAN:
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
-• Musik Yang Melebihi Waktu 1 Jam Tidak Dapat Diputar Di Voice Chat
-• Jika Assistent Tidak Mau Naik Ke Voice Chat, Kick Assistent Dan Masukin Lagi Ke Grup Anda
+• Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
+• Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
 • Jika Assistent Tidak Bisa Di Invite, PM Assistent Dan Kirim Link Grup Anda, Dan Pastikan Juga Assistent Tidak Di Ban Agar Assistent Bisa Bergabung
-• Jika Ada Masalah Silahkan Hubungi @GB_03101999
+• Jika Ada Masalah Silahkan Hubungi [ɢᴏᴏᴅ ʙᴏʏs](t.me/GB_03101999)
 • Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
@@ -132,13 +118,13 @@ async def about(client, message):
 
 <b>♞ Donasi Via Pulsa:</b> 089525658633
 
-<b>♞ Donasi Via E-Wallet:</b> <a href="https://saweria.co/DonasiUntukAdmin">Saweria</a>
+<b>♞ Donasi Via E-Wallet:</b> <a href="https://saweria.co/DonasiUntukAdmin">sᴀᴡᴇʀɪᴀ</a>
 
 <b>Saya Ucapkan Terimakasih</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="help"),
+                                            "📚 ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="start"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat="")
                                     ]]
