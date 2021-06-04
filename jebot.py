@@ -59,13 +59,15 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>.PERINTAH UNTUK SEMUA ANGGOTA GRUP**
+               text="""<b>PERINTAH UNTUK SEMUA ANGGOTA GRUP
+
 • /play - balas url youtube atau file lagu untuk memutar lagu
 • /play [judul musik] - putar lagu yang Anda minta
 • /song [judul musik] - unduh lagu yang Anda inginkan dengan cepat
 • /search [judul musik] - Cari video di youtube dengan detail
 
 PERINTAH UNTUK SEMUA ADMIN GRUP
+
 • /pause - jeda pemutaran lagu
 • /resume - lanjutkan pemutaran lagu
 • /skip - mainkan lagu berikutnya
