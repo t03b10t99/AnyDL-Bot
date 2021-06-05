@@ -23,10 +23,12 @@ YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"(\/)([-a-zA-Z0-9()@:%_\+.~#?&//=]*)([\w\-]+)(\S+)?$")
 s2tw = OpenCC('s2tw.json').convert
 
+GB_MUSIK_BOT_IMG= "https://telegra.ph/file/625c18e0b9335553152ac.jpg"
 
 @Jebot.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
+    await message.reply_photo(GB_MUSIK_BOT_IMG)
        await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>👋🏻 Hai, Nama Saya Music Anydl Bot, Saya Dapat Memutar Lagu Di Obrolan Suara Di Group Anda
