@@ -130,14 +130,14 @@ async def about(client, message):
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="help"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
                                         InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴍᴀɪɴ ᴍᴇɴᴜ 🎁", callback_data="about")
+                                            "ᴍᴀɪɴ ᴍᴇɴᴜ 📚", callback_data="start")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
