@@ -120,19 +120,24 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>Dukungan Music Anydl Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>
+<b>Dikelola Oleh:</b> <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>
 
-<b>♞ Donasi Via Pulsa:</b> 089525658633
+<b>Donasi Pulsa:</b> `089525658633`
 
-<b>♞ Donasi Via E-Wallet:</b> <a href="https://saweria.co/DonasiUntukAdmin">sᴀᴡᴇʀɪᴀ</a>
+<b>Donasi E-Wallet:</b> <a href="https://saweria.co/DonasiUntukAdmin">sᴀᴡᴇʀɪᴀ</a>
 
 <b>Saya Ucapkan Terimakasih</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "📚 ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="start"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat="")
+                                            "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
+                                  ],[
+                                        InlineKeyboardButton(
+                                            "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
+                                        InlineKeyboardButton(
+                                            "ᴍᴀɪɴ ᴍᴇɴᴜ 🎁", callback_data="about")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
