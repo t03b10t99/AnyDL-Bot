@@ -172,7 +172,7 @@ async def ytdl_with_button(c: Client, message: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join BorutoID", url=f"https://t.me/{Config.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("ᴊᴏɪɴ ɢʀᴏᴜᴘ ᴍᴜsɪᴄ ᴀɴʏᴅʟ", url=f"https://t.me/{Config.UPDATES_CHANNEL}")
                         ]
                     ]
                 ),
