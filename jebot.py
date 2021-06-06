@@ -68,6 +68,9 @@ async def help(client, message):
 
 PERINTAH UNTUK SEMUA ANGGOTA GRUP
 
+× /ytp [judul lagu] : Untuk Memutar lagu yang Anda minta melalui youtube
+× /ytp [link yt] : Untuk Memutar lagu yang Anda minta melalui link youtube
+× /ytp [reply ke audio] : Untuk Memutar lagu yang Anda minta melalui file audio
 × /playlist : Untuk Menampilkan daftar putar Lagu sekarang
 × /current : Untuk Menunjukkan  Lagu sekarang yang sedang diputar
 × /song [judul lagu] : Untuk Mendownload lagu di YouTube 
@@ -82,8 +85,8 @@ PERINTAH UNTUK SEMUA ADMIN GRUP
 × /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui youtube
 × /play [link yt] : Untuk Memutar lagu yang Anda minta melalui link youtube
 × /play [reply ke audio] : Untuk Memutar lagu yang Anda minta melalui file audio
-× /dplay : Untuk Memutar lagu yang Anda minta melalui deezer
-× /splay : Untuk Memutar lagu yang Anda minta melalui jio saavn
+× /dplay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui deezer
+× /splay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui jio saavn
 × /skip : Untuk Menskip pemutaran lagu ke Lagu berikutnya
 × /pause : Untuk Menjeda pemutaran Lagu
 × /resume : Untuk Melanjutkan pemutaran Lagu yang di pause
