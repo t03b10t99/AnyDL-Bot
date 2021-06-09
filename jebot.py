@@ -58,44 +58,33 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>BAGAIMANA CARA MENGGUNAKAN NYA?
+               text="""<b>🎛 PERINTAH MUSIC PLAYER UNTUK MEMUTAR LAGU
 
-1) Pertama Tambahkan Bot @MusicAnydlBot Ke Grup Anda Dan Berikan Hak Admin Penuh
-
-2) Kemudian Tambahkan Assistent @MusicAnydlAssistant Ke Grup Anda Dan Berikan Hak Admin
-
-3) Setelah itu ikuti perintah di bawah ini
-
-PERINTAH UNTUK SEMUA ANGGOTA GRUP
-
-× /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui youtube
-× /play [link yt] : Untuk Memutar lagu yang Anda minta melalui link youtube
-× /play [reply ke audio] : Untuk Memutar lagu yang Anda minta melalui file audio
+× /play : link youtube atau reply ke audio file untuk memutar lagu
+× /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui link youtube
 × /dplay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui deezer
 × /splay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui jio saavn
-× /song [judul lagu] : Untuk Mendownload lagu di YouTube 
-× /video [judul lagu] : Untuk Mendownload Video di YouTube dengan detail
-× /vsong [judul lagu] : Untuk Mendownload Video di YouTube dengan detail
-× /deezer [judul lagu] : Untuk Mendownload lagu dari deezer 
-× /saavn [judul lagu] : Untuk Mendownload lagu dari website saavn
-× /search [judul lagu] : Untuk Mencari Video di YouTube dengan detail
-× /playlist : Untuk Menampilkan daftar putar Lagu sekarang
-× /current : Untuk Menunjukkan  Lagu sekarang yang sedang diputar
 
-PERINTAH UNTUK SEMUA ADMIN GRUP
+🎛 PERINTAH MUSIC PLAYER HANYA ADMIN GRUP
 
 × /skip : Untuk Menskip pemutaran lagu ke Lagu berikutnya
 × /pause : Untuk Menjeda pemutaran Lagu
 × /resume : Untuk Melanjutkan pemutaran Lagu yang di pause
 × /end : Untuk Memberhentikan pemutaran Lagu
-× /userbotjoin - Untuk Mengundang asisten ke obrolan Anda
 
-📝 CATATAN:
+🎛 PERINTAH UNTUK DOWNLOAD LAGU ATAU VIDEO
+
+× /song [judul lagu] : Untuk Mendownload lagu di YouTube 
+× /video [judul lagu] : Untuk Mendownload Video di YouTube dengan detail
+× /deezer [judul lagu] : Untuk Mendownload lagu dari deezer 
+× /saavn [judul lagu] : Untuk Mendownload lagu dari website saavn
+
+📝 CATATAN HARAP DIBACA AGAR TIDAK TERJADI KENDALA
+
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
 • Jika Assistent Tidak Bisa Di Invite, PM Assistent Dan Kirim Link Grup Anda, Dan Pastikan Juga Assistent Tidak Di Ban Agar Assistent Bisa Bergabung
-• Jika Ada Masalah Silahkan Hubungi <a href="https://t.me/GB_03101999">ɢᴏᴏᴅ ʙᴏʏs</a>
 • Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
