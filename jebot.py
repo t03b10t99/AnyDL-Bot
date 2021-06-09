@@ -61,7 +61,7 @@ async def help(client, message):
                text="""<b>🎛 PERINTAH MUSIC PLAYER UNTUK MEMUTAR LAGU
 
 × /play : link youtube atau reply ke audio file untuk memutar lagu
-× /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui link youtube
+× /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui youtube
 × /dplay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui deezer
 × /splay [judul lagu] : Untuk Memutar lagu yang Anda minta melalui jio saavn
 
