@@ -58,7 +58,15 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>🎛 PERINTAH MUSIC PLAYER UNTUK MEMUTAR LAGU
+               text="""<b>🛠️ BAGAIMANA CARA MENGGUNAKANNYA?
+
+1. Jadikan Bot Sebagai Admin
+2. Mulai Obrolan Suara / VCG
+3. Ketik /ubotjoin dan coba /play 
+× Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
+× Jika Assistant Bot Tidak Bergabung Silahkan Tambahkan @MusicAnydlAssistant Ke Grup Anda Dan Coba Lagi
+
+🎛 PERINTAH MUSIC PLAYER UNTUK MEMUTAR LAGU
 
 × /play : link youtube atau reply ke audio file untuk memutar lagu
 × /play [judul lagu] : Untuk Memutar lagu yang Anda minta melalui youtube
@@ -78,13 +86,14 @@ async def help(client, message):
 × /video [judul lagu] : Untuk Mendownload Video di YouTube dengan detail
 × /deezer [judul lagu] : Untuk Mendownload lagu dari deezer 
 × /saavn [judul lagu] : Untuk Mendownload lagu dari website saavn
+× /ubotjoin - Untuk Mengundang asisten ke obrolan Anda
 
 📝 CATATAN HARAP DIBACA AGAR TIDAK TERJADI KENDALA
 
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
-• Jika Assistent Tidak Bisa Di Invite, PM Assistent Dan Kirim Link Grup Anda, Dan Pastikan Juga Assistent Tidak Di Ban Agar Assistent Bisa Bergabung
+• Jika Assistent Tidak Bisa Di Invite, `/unban @MusicAnydlAssistant` Terus Ketik `/ubotjoin` Di Grup Anda 
 • Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
