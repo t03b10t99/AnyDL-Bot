@@ -62,7 +62,7 @@ async def help(client, message):
 
 1. Jadikan Bot Sebagai Admin
 2. Mulai Obrolan Suara / VCG
-3. Ketik /ubotjoin dan coba /play 
+3. Ketik /ubotjoin Dan Coba /play 
 × Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
 × Jika Assistant Bot Tidak Bergabung Silahkan Tambahkan @MusicAnydlAssistant Ke Grup Anda Dan Coba Lagi
 
@@ -79,6 +79,7 @@ async def help(client, message):
 × /pause : Untuk Menjeda pemutaran Lagu
 × /resume : Untuk Melanjutkan pemutaran Lagu yang di pause
 × /end : Untuk Memberhentikan pemutaran Lagu
+× /ubotjoin - Untuk Mengundang asisten ke obrolan Anda
 
 🎛 PERINTAH UNTUK DOWNLOAD LAGU ATAU VIDEO
 
@@ -86,7 +87,6 @@ async def help(client, message):
 × /video [judul lagu] : Untuk Mendownload Video di YouTube dengan detail
 × /deezer [judul lagu] : Untuk Mendownload lagu dari deezer 
 × /saavn [judul lagu] : Untuk Mendownload lagu dari website saavn
-× /ubotjoin - Untuk Mengundang asisten ke obrolan Anda
 
 📝 CATATAN HARAP DIBACA AGAR TIDAK TERJADI KENDALA
 
