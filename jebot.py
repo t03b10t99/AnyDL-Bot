@@ -62,7 +62,7 @@ async def help(client, message):
 
 1. Jadikan Bot Sebagai Admin
 2. Mulai Obrolan Suara / VCG
-3. Ketik: /ubotjoin Dan Coba /play 
+3. Ketik /ubotjoin Dan Coba /play 
 × Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
 × Jika Assistant Bot Tidak Bergabung Silahkan Tambahkan @MusicAnydlAssistant Ke Grup Anda Dan Coba Lagi
 
@@ -93,7 +93,7 @@ async def help(client, message):
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
-• Jika Assistent Tidak Bisa Di Invite, Ketik: /unban @MusicAnydlAssistant Terus Ketik: /ubotjoin Di Grup Anda 
+• Jika Assistent Tidak Bisa Di Invite, Ketik /unban @MusicAnydlAssistant Terus Ketik /ubotjoin Di Grup Anda 
 • Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik<b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
