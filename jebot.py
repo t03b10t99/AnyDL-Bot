@@ -94,7 +94,7 @@ async def help(client, message):
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
 • Jika Assistent Tidak Bisa Di Invite, Ketik /unban @MusicAnydlAssistant Terus Ketik /ubotjoin Di Grup Anda 
-• Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik<b>""",
+• Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
