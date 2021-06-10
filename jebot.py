@@ -58,12 +58,12 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>🛠️ BAGAIMANA CARA MENGGUNAKANNYA?
+               text="""**🛠️ BAGAIMANA CARA MENGGUNAKANNYA?
 
 1. Jadikan Bot Sebagai Admin
 2. Mulai Obrolan Suara / VCG
-3. Ketik /ubotjoin Dan Coba /play 
-× Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
+3. Ketik** `/ubotjoin` **Dan Coba** `/play` 
+**× Jika Assistant Bot Bergabung Selamat Menikmati Musik, 
 × Jika Assistant Bot Tidak Bergabung Silahkan Tambahkan @MusicAnydlAssistant Ke Grup Anda Dan Coba Lagi
 
 🎛 PERINTAH MUSIC PLAYER UNTUK MEMUTAR LAGU
@@ -93,12 +93,12 @@ async def help(client, message):
 • Untuk Menghindari Bot Error Jangan Melakukan Spam Musik Ke Dalam Antrian Sekaligus
 • Lagu Yang Melebihi Waktu 2 Jam Tidak Dapat Diputar
 • Jika Assistant Tidak Mau Naik Ke Obrolan Suara, Matiin Obrolan Suara Dan Mulai Lagi
-• Jika Assistent Tidak Bisa Di Invite, `/unban @MusicAnydlAssistant` Terus Ketik `/ubotjoin` Di Grup Anda 
-• Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik</b>""",
+• Jika Assistent Tidak Bisa Di Invite, Ketik:** `/unban @MusicAnydlAssistant` **Terus Ketik:** `/ubotjoin` **Di Grup Anda 
+• Itu Saja Pesan Dari Saya Terimakasih, Selamat Bermusik**""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
+                                            "🛠️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
@@ -163,7 +163,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="**Untuk Menggunakan Fitur Ini Anda Harus Bergabung Di Saluran Saya**",
+                text="**Untuk Menggunakan Fitur Ini Anda Harus Bergabung Di Grup Saya**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
