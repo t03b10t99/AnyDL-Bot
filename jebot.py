@@ -40,14 +40,14 @@ async def start(client, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "🛠️ ʙᴀɴᴛᴜᴀɴ", callback_data="help"),
+                                            "🛠️ ʙᴀɴᴛᴜᴀɴ", callback_data="helpme"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                     ],[
                                       InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="about")
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="00about")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -98,14 +98,14 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="start"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="st5art"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
                                         InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="about")
+                                            "ᴅᴏɴᴀsɪ 🎁", callback_data="90about")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -128,14 +128,14 @@ async def about(client, message):
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="help"),
+                                            "⬅️ ᴋᴇᴍʙᴀʟɪ", callback_data="helpme"),
                                         InlineKeyboardButton(
                                             "ᴘᴇɴᴄᴀʀɪᴀɴ🔎", switch_inline_query_current_chat=""),
                                   ],[
                                         InlineKeyboardButton(
                                             "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ", url="http://t.me/MusicAnydlBot?startgroup=start"),
                                         InlineKeyboardButton(
-                                            "ᴍᴀɪɴ ᴍᴇɴᴜ 📚", callback_data="start")
+                                            "ᴍᴀɪɴ ᴍᴇɴᴜ 📚", callback_data="sta5rt")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
