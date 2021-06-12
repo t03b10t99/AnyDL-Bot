@@ -23,7 +23,7 @@ YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"(\/)([-a-zA-Z0-9()@:%_\+.~#?&//=]*)([\w\-]+)(\S+)?$")
 s2tw = OpenCC('s2tw.json').convert
 
-@Jebot.on_message(filters.command("start"))
+@Jebot.on_message(filters.command("yyyyyygchii"))
 async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
@@ -53,7 +53,7 @@ async def start(client, message):
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Jebot.on_message(filters.command("help"))
+@Jebot.on_message(filters.command("ugigjfyuoj"))
 async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
@@ -111,7 +111,7 @@ async def help(client, message):
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Jebot.on_message(filters.command("about"))
+@Jebot.on_message(filters.command("hiugttityabout"))
 async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
