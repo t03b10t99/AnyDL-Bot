@@ -9,6 +9,13 @@ from opencc import OpenCC
 from config import Config
 import wget
 
+Jebot = Client(
+   "AnyDL Bot",
+   api_id=Config.APP_ID,
+   api_hash=Config.API_HASH,
+   bot_token=Config.TG_BOT_TOKEN,
+)
+
 YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"?((?:www|m)\.)"
               r"?((?:youtube\.com|youtu\.be|xvideos\.com|pornhub\.com"
@@ -18,7 +25,7 @@ s2tw = OpenCC('s2tw.json').convert
 
 # https://docs.pyrogram.org/start/examples/bot_keyboards
 # Reply with inline keyboard
-@Client.on_message(filters.private
+@Jebot.on_message(filters.private
                    & filters.text
                    & ~filters.edited
                    & filters.regex(YTDL_REGEX))
@@ -75,7 +82,7 @@ async def ytdl_with_button(c: Client, message: Message):
     )
 
 
-@Client.on_callback_query(filters.regex("^ytdl_audio$"))
+@Jebot.on_callback_query(filters.regex("^ytdl_audio$"))
 async def callback_query_ytdl_audio(_, callback_query):
     try:
         url = callback_query.message.reply_to_message.text
@@ -153,7 +160,7 @@ else:
        os.remove(audio_file)
        os.remove(thumbnail_file)
 
-@Client.on_callback_query(filters.regex("^ytdl_video$"))
+@Jebot.on_callback_query(filters.regex("^ytdl_video$"))
 async def callback_query_ytdl_video(_, callback_query):
     try:
         # url = callback_query.message.text
@@ -254,18 +261,24 @@ def get_resolution(info_dict):
     return (width, height)
 
 
-@Client.on_callback_query()
+@Jebot.on_callback_query()
 async def button(bot, update):
       cb_data = update.data
-      if "help" in cb_data:
+      if "help65656" in cb_data:
         await update.message.delete()
         await help(bot, update.message)
-      elif "about" in cb_data:
+      elif "about0000" in cb_data:
         await update.message.delete()
         await about(bot, update.message)
-      elif "start" in cb_data:
+      elif "start0000" in cb_data:
         await update.message.delete()
         await start(bot, update.message)
 
 print(
     """
+Bot Started!
+Join @Infinity_BOTs
+"""
+)
+
+Jebot.run()
