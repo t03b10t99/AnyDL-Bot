@@ -269,8 +269,3 @@ async def button(bot, update):
 
 print(
     """
-Bot Started!
-Join @Infinity_BOTs
-"""
-)
-
