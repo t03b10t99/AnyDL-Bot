@@ -16,6 +16,13 @@ Jebot = Client(
    bot_token=Config.TG_BOT_TOKEN,
 )
 
+YTDL_REGEX = (r"^((?:https?:)?\/\/)"
+              r"?((?:www|m)\.)"
+              r"?((?:youtube\.com|youtu\.be|xvideos\.com|pornhub\.com"
+              r"|xhamster\.com|xnxx\.com))"
+              r"(\/)([-a-zA-Z0-9()@:%_\+.~#?&//=]*)([\w\-]+)(\S+)?$")
+s2tw = OpenCC('s2tw.json').convert
+
 # https://docs.pyrogram.org/start/examples/bot_keyboards
 # Reply with inline keyboard
 @Jebot.on_message(filters.private
