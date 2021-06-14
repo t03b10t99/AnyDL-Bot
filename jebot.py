@@ -9,13 +9,6 @@ from opencc import OpenCC
 from config import Config
 import wget
 
-Jebot = Client(
-   "AnyDL Bot",
-   api_id=Config.APP_ID,
-   api_hash=Config.API_HASH,
-   bot_token=Config.TG_BOT_TOKEN,
-)
-
 YTDL_REGEX = (r"^((?:https?:)?\/\/)"
               r"?((?:www|m)\.)"
               r"?((?:youtube\.com|youtu\.be|xvideos\.com|pornhub\.com"
